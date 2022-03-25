@@ -1,4 +1,5 @@
-# DOWNLOAD VIDEO YOUTUBE
+# DOWNLOAD DE VIDEO DO YOUTUBE
+
 from pytube import YouTube
 
 link = "https://www.youtube.com/watch?v=l6ybv-8lR90"
@@ -9,4 +10,4 @@ print("Views: ",yt.views)
 
 ys = yt.streams.get_highest_resolution()
 
-ys.download()
+ys.download() #Insira o Link que deseja baixar dentro dos ()
